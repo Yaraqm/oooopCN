@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <arpa/inet.h>
+#include <unistd.h>  // Add this line at the top
 
 int main(int argc, char *argv[]) {
     struct sockaddr_in fsin;  /* Client address */
